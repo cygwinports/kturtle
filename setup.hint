@@ -1,0 +1,4 @@
+category: KDE Devel
+requires: libgcc1 libkdecore5 libQtCore4 libQtDBus4 libQtGui4 libQtSvg4 libstdc++6
+sdesc: "KDE Logo educational programming language IDE"
+ldesc: "KDE education suite"
