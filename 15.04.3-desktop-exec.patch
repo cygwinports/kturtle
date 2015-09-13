@@ -1,0 +1,14 @@
+Revert commit c9dd35332f6a455ccf682014216a36ac8e90dfc3
+Requires porting to QApplication, which is only happening for 15.12
+
+--- a/src/org.kde.kturtle.desktop	2015-04-28 09:36:32.000000000 -0500
++++ b/src/org.kde.kturtle.desktop	2015-09-13 12:05:12.579248400 -0500
+@@ -123,7 +123,7 @@ GenericName[uk]=Навчальне се�
+ GenericName[x-test]=xxEducational Programming Environmentxx
+ GenericName[zh_CN]=教育编程环境
+ GenericName[zh_TW]=教育程式環境
+-Exec=kturtle -qwindowtitle %c
++Exec=kturtle %i -caption %c
+ Icon=kturtle
+ X-DocPath=kturtle/index.html
+ Type=Application
